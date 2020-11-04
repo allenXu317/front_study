@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    background-color: #0074cc;
+    background-image: linear-gradient(to top,#0088cc,#0055cc);
+    background-repeat: repeat-x;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-color: #ccc;
+    border-color: rgba(0,0, 0, 0.1) rgba(0,0, 0, 0.1) rgba(0,0, 0, 0.25);
+    border-radius: 6px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: normal;
+    /* filter: progid:dximagetransform.microsoft.gradient */
+                    /* (startColorstr='#0088cc',endColorstr='#0055cc',GradientType=0); */
+    /* filter: progid:dximagetransform.microsoft.gradient(enabled=false); */
+    
+    filter:progid:DXImageTransform.Microsoft.Gradient(enabled=bEnabled,startColorStr=iWidth,endColorStr=iWidth);
+    line-height: normal;
+    padding: 14px,24px;
+    text-align: center;
+    /* 设置文字阴影 */
+    text-shadow: 0 -2px 1px rgba(0,0, 0, 0.25);
+    text-decoration: none;
+    vertical-align: middle;
+
+}
+
+.btn:hover {
+    background-position: 0 -15px;
+    background-color: #0055cc;
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0,0, 0, 0.25);
+    transition:background-position 0.1s linear;
+}
+
+.btn:active {
+    background-color: #0055cc;
+    background-color: #004099 \9;
+    background-image: none;
+    outline: 0;
+    /* 盒子阴影特性 */
+    box-shadow: inset 0 2px 4px rgb(0,0,0,0.15),
+                0 1px 2px rgba(0, 0, 0, 0.15);
+    color: rgba(255,255,255,0.75);
+}
+
+.btn:focus {
+    outline: thin dotted #333;
+    outline-offset: -2px;
+}
