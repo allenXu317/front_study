@@ -1,0 +1,15 @@
+li {
+    /* border: 1px solid red; */
+    border-width: 1px 0;
+    /* border-color: red , yellow; */
+    border:1px solid;
+    /* border-top-color: red; */
+    border-top-color: red green;
+}
+div {
+    width: 27px;
+    height: 27px;
+    border: 27px solid;
+    border-image:url(../res/box.png) 27 27 27 27 repeat;
+    border-image-width: 10% 10% ;
+}

@@ -1,0 +1,10 @@
+.box {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 1em;
+}
+
+section {
+    clear: both;
+}
